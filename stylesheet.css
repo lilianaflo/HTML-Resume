@@ -74,11 +74,20 @@ html, body{
     text-align: center;
 }
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 412px){
     #photo{
     display: block;
     height: auto;
     max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    #menu{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
