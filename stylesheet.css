@@ -57,7 +57,7 @@ html, body{
     font-size: clamp(8px, 1.5vw, 15px);
 }
 #statement{
-    font-size: clamp(10px, 1.5vw, 30px);
+    font-size: clamp(15px, 1.5vw, 30px);
     text-align: center;
     font-style:oblique;
 
@@ -88,6 +88,7 @@ html, body{
 }
 @media only screen and (orientation: portrait){
     main>div{
+
         padding-top: 10%;
     }
     
