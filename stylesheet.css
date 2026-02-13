@@ -73,11 +73,15 @@ html, body{
 #projTitle{
     text-align: center;
 }
-#photo{
+
+@media screen and (min-width: 400px){
+    #photo{
     display: block;
     height: auto;
     max-width: 100%;
+    }
 }
+
 #headThree{
     font-size: clamp(10px, 1.5vw, 30px);
 }
@@ -86,4 +90,8 @@ html, body{
     text-align: center;
     width: 50%;
     margin-left: 30%
+}
+
+#portfolio{
+    text-align: center;
 }
