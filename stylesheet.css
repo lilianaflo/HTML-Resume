@@ -74,6 +74,7 @@ html, body{
 }
 #photo{
     display: block;
+    height: auto;
     max-width: 100%
 }
 #headThree{
@@ -86,7 +87,7 @@ html, body{
     margin-left: 30%
 }
 @media only screen and (max-width: 600){
-    #rest{
+    main>div{
         padding-top: 30%;
     }
     
